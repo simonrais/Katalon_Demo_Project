@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/input_Visit
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/td_7'))
 
-WebUI.setText(findTestObject('Page_CURA Healthcare Service_Appointment/textarea_Comment_comment'), 'Yeay')
+WebUI.setText(findTestObject('Page_CURA Healthcare Service_Appointment/textarea_Comment_comment'), 'history')
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/button_Book Appointment'))
 
@@ -47,7 +47,11 @@ WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service_Appointm
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/a_History'))
+
+WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service_Appointment/h2_History'), 5)
+
+WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/a_Go to Homepage'))
 
 WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service_Appointment/h1_CURA Healthcare Service'), 5)
 

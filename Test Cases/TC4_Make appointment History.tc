@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC4_Make appointment LogOut</name>
+   <name>TC4_Make appointment History</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e1805b3c-2ed5-4b06-a8e1-63359839ba06</testCaseGuid>
+   <testCaseGuid>41505a40-a049-40b9-9e7b-0ab25b2a074f</testCaseGuid>
 </TestCaseEntity>
