@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Failed Login</description>
+   <name>TC3_Verify Failed Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e89fb47b-10e7-4d5b-af27-57e098ad680a</testCaseGuid>
+</TestCaseEntity>
