@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC4_Make appointment History</name>
+   <name>TC4_Make appointment - History</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
