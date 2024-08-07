@@ -46,4 +46,11 @@
       <testCaseId>Test Cases/TC6_ LogIn Profile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ab1888c8-033f-4d43-89fc-aa1eae2e3f83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC7_Make Appointment - Verifikasi Data Appointment</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -19,9 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/a_Make Appointment'))
+
+WebUI.scrollToElement(findTestObject('Page_CURA Healthcare Service_Login/form_Demo account'), 5)
+
+TestObject myElement = findTestObject('Page_CURA Healthcare Service_Login/h2_Make Appointment')
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/input_Username_username'), 'John Doe')
 
