@@ -25,12 +25,18 @@ WebUI.click(findTestObject('Page_CURA Healthcare Service_Login/a_Make Appointmen
 
 WebUI.setText(findTestObject('Page_CURA Healthcare Service_Login/input_Username_username'), 'John Doe')
 
+WebUI.delay(3)
+
 WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service_Login/input_Password_password'), 'GN/9I+8MSoI=')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service_Login/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service_Login/p_Login failed Please ensure the username a_eb55b5'), 
     5)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

@@ -25,12 +25,18 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Appoi
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/input_Username_username'), 'John Doe')
 
+WebUI.delay(3)
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/button_Login'))
 
 WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service_Appointment/h2_Make Appointment'), 5)
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
