@@ -25,9 +25,7 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/a_Make Appointment'))
 
-WebUI.scrollToElement(findTestObject('Page_CURA Healthcare Service_Login/form_Demo account'), 5)
-
-TestObject myElement = findTestObject('Page_CURA Healthcare Service_Login/h2_Make Appointment')
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/input_Username_username'), 'John Doe')
 
@@ -36,13 +34,19 @@ WebUI.delay(3)
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/input_Password_password'), 
     'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
+WebUI.delay(2)
+
+WebUI.scrollToElement(findTestObject('Page_CURA Healthcare Service_Login/form_Demo account'), 5)
+
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/button_Login'))
 
+WebUI.verifyNotEqual(findTestObject('Page_CURA Healthcare Service_Login/a_Make Appointment'), findTestObject('Page_CURA Healthcare Service_Login/h2_Make Appointment'))
+
 WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service_Appointment/h2_Make Appointment'), 5)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

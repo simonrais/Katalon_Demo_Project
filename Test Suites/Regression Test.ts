@@ -57,7 +57,7 @@
       <guid>915d922e-756f-4a1a-b252-bbc11ac551d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC7_Make Appointment - Verifikasi Data Appointment</testCaseId>
+      <testCaseId>Test Cases/TC8_Make Appointment - Verifikasi Data Appointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
