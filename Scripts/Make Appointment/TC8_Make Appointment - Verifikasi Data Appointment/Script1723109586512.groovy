@@ -37,9 +37,6 @@ WebUI.verifyElementPresent(findTestObject('Page_CURA Healthcare Service_Appointm
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'))
 
-WebUI.getAttribute(findTestObject('Page_CURA Healthcare Service_Appointment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
-    'value')
-
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service_Appointment/input_Apply for hospital readmission_hospit_63901f'))
 
 WebUI.click(findTestObject('Page_CURA Healthcare Service_Appointment/input_Visit Date (Required)_visit_date'))
@@ -58,7 +55,7 @@ WebUI.verifyTextPresent('Tokyo CURA Healthcare Center', true)
 
 WebUI.verifyTextPresent('Medicare', true)
 
-WebUI.verifyTextPresent('22/08/2024', true)
+WebUI.verifyTextPresent('19/09/2024', true)
 
 WebUI.verifyTextPresent('Use to make appointment', true)
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Data file ini digunakan untuk Data Driven Test menggunakan katalon. Data yang digunakan untuk login dengan username dan password</description>
+   <name>Login_dataFile</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>b62df817-3e6f-44d6-8a7c-0b8ff077631d</dataFileGUID>
+   <dataSourceUrl>/Volumes/Work/DDT_Login_Katalon (1).xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
